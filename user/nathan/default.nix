@@ -72,13 +72,13 @@ in {
       chmod +x $out/bin/$name
     '';
     # nethack_ = nethack.packages.${pkgs.system}.default;
-    retroarch = pkgs.retroarch.override {
-      cores = with pkgs.libretro; [
-        genesis-plus-gx
-        snes9x
-        beetle-psx-hw
-      ];
-    };
+#    retroarch = pkgs.retroarch.override {
+#      cores = with pkgs.libretro; [
+#        genesis-plus-gx
+#        snes9x
+#        beetle-psx-hw
+#      ];
+#    };
     inherit (pkgs.jetbrains)
     idea-community;
     nixos =
