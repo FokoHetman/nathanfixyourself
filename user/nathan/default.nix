@@ -79,7 +79,7 @@ in {
 #        beetle-psx-hw
 #      ];
 #    };
-    inherit (pkgs.jetbrains)
+#    inherit (pkgs.jetbrains)
 #    idea-community;
     nixos =
       pkgs.runCommand "nixos" {} ''
