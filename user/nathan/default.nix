@@ -80,7 +80,7 @@ in {
 #      ];
 #    };
     inherit (pkgs.jetbrains)
-    idea-community;
+#    idea-community;
     nixos =
       pkgs.runCommand "nixos" {} ''
         mkdir -p $out/{bin,etc/fish/completions}
