@@ -55,7 +55,7 @@ in {
     fossil
     # kde-connect
     nushell
-    python312Full
+    #python312Full
     stgit;
     vscode-server = pkgs.runCommand "vscode-server" {} ''
       mkdir -p $out/bin
